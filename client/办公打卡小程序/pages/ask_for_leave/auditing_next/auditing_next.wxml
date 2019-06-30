@@ -1,0 +1,17 @@
+<view class='container'> 
+  <view class="input">
+    <input value1='{{name}}' class="nameInput" bindblur="onGetName" type="text" maxlength="12" placeholder="姓名" />
+  </view>
+
+  <view class="input">
+    <input value1='{{leaveDate}}' class="leaveDateInput" bindblur="onGetLeaveDate" type="text" maxlength="10" placeholder="请假日期（比如 2019/5/27）" />
+  </view>
+
+   <view class="input">
+    <input value1='{{leaveDate}}' class="leaveDateInput" bindblur="onGetEnable" type="text" maxlength="1" placeholder="是否同意（同意1，拒绝0）" />
+  </view>
+
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="onAgreeLeave">提交审核结果</button>
+  </view>
+</view>

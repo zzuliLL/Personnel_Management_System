@@ -1,0 +1,13 @@
+<view class="container top">
+  <view class='content top1'>
+    <text>建议1：</text>
+    <textarea bindinput='getAdvice1' maxlength="70" placeholder="最多70个字" />
+  </view>
+  <view class='content'>
+    <text>建议2：</text>
+    <textarea bindinput='getAdvice2' maxlength="70" placeholder="最多70个字" />
+  </view>
+  <view class='buttons'>
+    <button class="feedback" type='primary' bindtap="fHandin">提交建议</button>
+  </view>
+</view>

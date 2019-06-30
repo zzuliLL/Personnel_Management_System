@@ -1,0 +1,26 @@
+<view class='container'>
+  <text class='number'>初始密码是000000</text>
+
+  <view class="input">
+    <input value1='{{name}}' class="nameInput" bindblur="onGetName" type="text" maxlength="12" placeholder="姓名" />
+  </view>
+
+  <view class="input">
+    <input value1='{{userId}}' class="userIdInput" bindblur="onGetUserId" type="text" maxlength="20" placeholder="工号" />
+  </view>
+  <view class="input">
+    <input value1='{{identityCard}}' class="userIdInput" bindblur="onGetIdentityCard" type="text" maxlength="18" placeholder="身份证号" />
+  </view>
+  <view class="input">
+    <input value='{{address}}' class="addressInput" bindblur="onGetAddress" type="text" maxlength="70" placeholder="地址" />
+  </view>
+  <view class="input">
+    <input value='{{phone}}' class="phoneInput" bindblur="onGetPhone" type="number" maxlength="11" placeholder="手机号" />
+  </view>
+  <view class="input">
+    <input value='{{operate}}' class="operateInput" bindblur="onGetOperate" type="number" maxlength="1" placeholder="状态（1添加/更新 2删除）" />
+  </view>
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="onAddUser">提交信息</button>
+  </view>
+</view>

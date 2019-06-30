@@ -1,0 +1,11 @@
+<!-- 登录 -->
+<view class="container">
+    <text>平原公司</text>
+    <view class='content'>
+        <image class="user-avatar" src="/image/login.jpg"></image>
+        <input placeholder="工号" class='user-id' bindinput='getUserId' />
+        <input placeholder="密码" class='password' bindinput='getPassword' password='true' />
+        <button class='login' bindtap='loginClick' hover-class='login-hover'>Go</button>
+    </view>
+
+</view>

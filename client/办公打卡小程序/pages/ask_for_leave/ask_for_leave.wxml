@@ -1,0 +1,21 @@
+<view class='container'> 
+  <view class="input">
+    <input value1='{{name}}' class="nameInput" bindblur="onGetName" type="text" maxlength="12" placeholder="姓名" />
+  </view>
+
+  <view class="input">
+    <input value1='{{leaveDate}}' class="leaveDateInput" bindblur="onGetLeaveDate" type="text" maxlength="10" placeholder="请假日期（比如 2019/5/27）" />
+  </view>
+  <view class="input">
+    <input value='{{reason}}' class="inputly" bindblur="onGetReason" type="text" maxlength="70" placeholder="请假理由" />
+  </view>
+  <view class="input">
+    <input value='{{phone}}' class="phoneInput" bindblur="onGetPhone" type="number" maxlength="11" placeholder="手机号" />
+  </view>
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="onAskForLeave">申请</button>
+  </view>
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="getAskForLeave">查看请假结果</button>
+  </view>
+</view>

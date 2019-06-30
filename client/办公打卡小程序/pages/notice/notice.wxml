@@ -1,0 +1,15 @@
+<view>
+
+  <view wx:for="{{noticeArray}}" wx:key="*this">
+
+    <view class="table">
+      <view>
+        <image src="/image/notice.png" class="star"></image>
+      </view>
+      <text>{{item}}</text>
+    </view>
+    <view class="line"></view>
+
+  </view>
+
+</view>

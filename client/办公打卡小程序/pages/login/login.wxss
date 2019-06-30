@@ -1,0 +1,72 @@
+/* pages/login/login.wxss */
+
+text {
+    margin-top: 61rpx;
+    color: #101010;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.content {
+    width: 510rpx;
+    height: 797rpx;
+    border-radius: 18rpx;
+    text-align: center;
+    margin-top: 85rpx;
+    box-shadow: 0rpx 0rpx 36rpx 0rpx rgba(170, 170, 170, 1);
+    border: 2rpx solid rgba(187, 187, 187, 1);
+}
+
+.user-avatar {
+    width: 162rpx;
+    height: 162rpx;
+    margin-top: 113rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-id {
+    width: 374rpx;
+    height: 83rpx;
+    line-height: 83rpx;
+    margin: 52rpx auto;
+    margin-bottom: 18rpx;
+    text-align: left;
+    font-size: 28rpx;
+    opacity: 0.5;
+    border-radius: 36rpx;
+    border: 2rpx solid rgba(187, 187, 187, 1);
+    padding-left: 54rpx;
+}
+
+.password {
+    width: 374rpx;
+    height: 83rpx;
+    line-height: 83rpx;
+    margin: 18rpx auto;
+    margin-bottom: 97rpx;
+    text-align: left;
+    font-size: 28rpx;
+    opacity: 0.5;
+    border-radius: 36rpx;
+    border: 2rpx solid rgba(187, 187, 187, 1);
+    padding-left: 54rpx;
+}
+
+.login {
+    width: 374rpx;
+    height: 83rpx;
+    border-radius: 36rpx;
+    background-color: #333643;
+    margin-top: 88rpx;
+    margin: 88rpx auto;
+    text-align: center;
+    line-height: 83rpx;
+    font-size: 36rpx;
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.login-hover {
+    color: rgba(122, 122, 122, 0.8);
+}

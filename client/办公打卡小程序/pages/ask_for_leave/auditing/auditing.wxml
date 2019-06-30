@@ -1,0 +1,17 @@
+<view>
+
+  <view wx:for="{{auditingArray}}" wx:key="*this">
+    <view class="table">
+      <view>
+        <image src="/image/auditing.png" class="star"></image>
+      </view>
+      <text>{{item}}</text>
+    </view>
+    <view class="line"></view>
+  </view>
+  
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="trunToAuditingPage">审核</button>
+  </view>
+
+</view>

@@ -1,0 +1,28 @@
+<!-- 首页 -->
+<view class='container'>
+    <view class='sign'>
+        <image src="/image/index1.jpg" bindtap='turnToSign'></image>
+        <text>签到</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index2.jpg" bindtap='turnToLeave'></image>
+        <text>请假</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index3.jpg" bindtap='turnToMeeting'></image>
+        <text>会议室预定</text>
+    </view>
+    
+    <view class='sign'>
+        <image src="/image/index5.jpg" bindtap='turnToFeedback'></image>
+        <text>反馈建议</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index6.jpg" bindtap='turnToNotice'></image>
+        <text>公告查询</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/setup.png" bindtap='turnToLogout'></image>
+        <text>设置</text>
+    </view>
+</view>

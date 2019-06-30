@@ -1,0 +1,9 @@
+<view class="container top">
+    <view class='content top1'>
+        <text>公告内容：</text>
+        <textarea bindinput='getAnnouncement' maxlength="70" placeholder="最多70个字" />
+    </view>
+    <view class='buttons'>
+    <button class="feedback" type='primary' bindtap="sendAnnouncement">发布公告</button>
+    </view>
+</view>

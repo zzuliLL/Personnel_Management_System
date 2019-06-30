@@ -1,0 +1,14 @@
+<!-- 考勤人员签到 -->
+<view class="container">
+    <image class='img-keke' src='/image/sign.png'></image>
+    <view class='count'>
+    <text>到目前，你本月已签到</text>
+    <view class='daynumber'>
+    <text class='number'>{{count}}</text>
+    <text class='day'>天</text>
+    </view>
+    <text>出勤率为：{{attendanceRate}}%</text> 
+    <button class='btn' bindtap='sHandin' hover-class='btn-hover'> 签到 </button>
+  </view>
+    
+</view>

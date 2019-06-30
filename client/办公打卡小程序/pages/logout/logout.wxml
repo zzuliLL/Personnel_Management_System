@@ -1,0 +1,19 @@
+<view class='container'>
+  <view class="input">
+    <input value1='{{oldPassword}}' class="nameInput" bindblur="onGetOldPassword" type="text" maxlength="20" placeholder="原密码" password='true' />
+  </view>
+  <view class="input">
+    <input value1='{{newPassword}}' class="nameInput" bindblur="onGetNewPassword" type="text" maxlength="20" placeholder="新密码" password='true' />
+  </view>
+  <view class="input">
+    <input value1='{{newPassword2}}' class="nameInput" bindblur="onGetNewPassword2" type="text" maxlength="20" placeholder="确认密码" password='true' />
+  </view>
+
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="modifyPassword">修改密码</button>
+  </view>
+
+  <view class='buttons'>
+    <button class="askForLeave" type='primary' bindtap="userLogout">注销账号</button>
+  </view>
+</view>

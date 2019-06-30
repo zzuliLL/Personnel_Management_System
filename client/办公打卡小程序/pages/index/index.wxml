@@ -1,0 +1,24 @@
+<!-- 首页 -->
+<view class='container'>
+    <view class='sign'>
+        <image src="/image/index2.jpg" bindtap='turnToAuditing'></image>
+        <text>审批假条</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index4.jpg" bindtap='turnToAddUser'></image>
+        <text>完善资料</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index5.jpg" bindtap='turnToGetFeedback'></image>
+        <text>留言处理</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/index6.jpg" bindtap='turnToSendNotice'></image>
+        <text>发布公告</text>
+    </view>
+    <view class='sign'>
+        <image src="/image/setup.png" bindtap='turnToLogout'></image>
+        <text>设置</text>
+    </view>
+
+</view>

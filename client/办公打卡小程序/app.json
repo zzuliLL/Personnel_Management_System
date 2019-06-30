@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/add_user/add_user",
+    "pages/index_user/index_user",
+    "pages/ask_for_leave/ask_for_leave",
+    "pages/meeting/meeting",
+    "pages/sign/sign",
+    "pages/index/index",
+    "pages/feedback/feedback",
+    "pages/feedback/get_feedback/get_feedback",
+    "pages/notice/notice",
+    "pages/notice/send_notice/send_notice",
+    "pages/ask_for_leave/auditing/auditing",
+    "pages/ask_for_leave/auditing_next/auditing_next",
+    "pages/logout/logout"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  }
+}

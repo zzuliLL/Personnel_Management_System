@@ -1,0 +1,13 @@
+<view class='container'> 
+  <text class='number'>一共6个会议室</text>
+  <view class="input">
+    <input value1='{{numberMeet}}' class="nameInput" bindblur="onGetNumberMeet" type="text" maxlength="1" placeholder="会议室号码（如：1）" />
+  </view>
+
+  <view class='buttons'>
+    <button class="askMeeting" type='primary' bindtap="askMeeting">申请</button>
+  </view>
+  <view class='buttons'>
+    <button class="askMeeting" type='primary' bindtap="backMeeting">归还</button>
+  </view>
+</view>
